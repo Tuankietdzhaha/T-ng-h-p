@@ -1,0 +1,93 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "Tkiet123 Roblox",
+         Animation = "Youtube: TKiet123"
+         },
+        Key = {
+        KeySystem = false,
+        Title = "Key System",
+        Description = "",
+        KeyLink = "",
+        Keys = {"1234"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is incorrect",
+       CopyKeyLink = "Copied to Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=86218363009155",
+       Size = {60, 60},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "Script Farm"})
+     local Tab2o = MakeTab({Name = "FixLag"})
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "Redz Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
+  end
+  })
+AddButton(Tab1o, {
+     Name = "bản của mình có lỗi thì thông cảm nha",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuankietdzhaha/TKiet-Roblox/refs/heads/main/TKiet%20roblox.lua"))()
+AddButton(Tab1o, {
+     Name = "bản này của anh zis có gì thì bạn qua đăng kí cho anh đó nhé",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisRb10"))()
+AddButton(Tab1o, {
+     Name = "bản này của game rivals",
+    Callback = function()
+	  loadstring(game:HttpGet('https://raw.githubusercontent.com/HexFG/duckhub/refs/heads/main/loader.lua'))()
+AddButton(Tab1o, {
+     Name = "bản này của game 99 đêm",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/nightsintheforest.lua", true))()
+AddButton(Tab1o, {
+     Name = "bản này là speed hub cho grow a garden và blox fruit",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+AddButton(Tab1o, {
+     Name = "bản này omg của meme sea",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
+AddButton(Tab1o, {
+     Name = "bản này của Fazium king legacy có key nha"
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Fazium-files/main/Loader"))()
+AddButton(Tab1o, {
+     Name = "bản hack bay"
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+AddButton(Tab2o, {
+     Name = "FIXLAG"
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+AddButton(Tab1o, {
+     Name = "bản hack king"
+    Callback = function()
+	  getgenv().CustomDistance = 10 -- Custom Distance For Bug Can't Swipe
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ChopLoris/ArcHub/main/main.lua"))()
+AddButton(Tab1o, {
+     Name = "bản hack king 2"
+    Callback = function()
+	  repeat wait() until game:IsLoaded()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/Hyper/main/script.lua"))()
