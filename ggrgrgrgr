@@ -99,3 +99,7 @@ AddButton(Tab1o, {
      Name = "bản hack 99 đêm"
     Callback = function()
 	  loadstring(game:HttpGet("https://soluna-script.vercel.app/99-Nights-in-the-Forest.lua",true))()
+AddButton(Tab1o, {
+     Name = "bản hack door"
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/mspaint/main/main.lua"))()
